@@ -1,10 +1,10 @@
 module.exports = {
-  development: {
-    username: 'root',
-    password: process.env.DATABASE_PASSWORD,
-    database: 'shortly',
-    host: 'localhost',
-    dialect: 'mysql',
-    logging: false
-  }
+	development: {
+		username: "admin",
+		password: "passw0rd",
+		database: "shortly",
+		host: "practice-deployment.cqrbdpwbnxem.us-east-2.rds.amazonaws.com",
+		dialect: "mysql",
+		logging: false,
+	},
 };
