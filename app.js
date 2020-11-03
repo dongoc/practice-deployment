@@ -50,7 +50,9 @@ app.use(express.urlencoded({ extended: false }));
  */
 app.use(
 	cors({
-		origin: ["http://localhost:3000"],
+		origin: [
+			"http://practice-deployment.s3-website.ap-northeast-2.amazonaws.com",
+		],
 		methods: ["GET", "POST"],
 		credentials: true,
 	})
